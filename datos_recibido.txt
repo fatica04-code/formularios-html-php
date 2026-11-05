@@ -1,0 +1,4 @@
+
+{"FILES":[],"GET":[],"POST":{"nombre":"Fatima","apellido":"Ca\u00f1iza","fecha_nacimiento":"1996-01-04","ciudad":"Luque","email":"fatica04@gmail.com","sexo":"Mujer"}}
+{"FILES":[],"GET":[],"POST":{"tv":"on","laptop":"on"}}
+{"FILES":[],"GET":{"pais":"Brasil","Comentario":"Brasil tiene muchas playas"},"POST":[]}

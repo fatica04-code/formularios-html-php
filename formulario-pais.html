@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Formulario sobre paises</title>
+</head>
+<body>
+    <form action="http://localhost/clase3-tarea-fatima/datos.php" method="get">
+    <select name="pais" id="pais" required>
+        <option value="" disabled selected>-- Selecciona un país --</option>
+        <optgroup label="Sudamerica">
+            <option value="Paraguay">Paraguay</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguay">Uruguay</option>
+        </optgroup>
+        <optgroup label="Europa">
+            <option value="Espanha">España</option>
+        </optgroup>
+    </select>
+    <hr>
+    <textarea name="Comentario" id="" cols="60" rows="10" required placeholder="Ingresa tu comentario"></textarea>
+    <hr>
+    <input type="submit" value= "Enviar (input)">
+
+    <button>Enviar</button>
+</form>
+</body>
+</html>

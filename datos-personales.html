@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario datos personales</title>
+</head>
+<body>
+    <form action="datos.php" method="post">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br><br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido" required>
+        <br><br>
+        <label for="fecha-nacimiento">Fecha de nacimiento: </label>
+        <input type="date" name="fecha_nacimiento" id="fecha-nacimiento" required>
+        <br><br>
+        <label for="ciudad">Ciudad: </label>
+        <input type="text" name="ciudad" id="ciudad" size="15" maxlength="50" required>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <input type="radio" name="sexo" id="mujer" value="Mujer" checked>
+        <label for="mujer">Mujer: </label>
+        <br><br>
+        <input type="radio" name="sexo" id="hombre" value="Hombre">
+        <label for="hombre">Hombre: </label>
+        <br><br>
+        <input type="submit" value="Aceptar">
+        <input type="reset" value="Restablecer">
+    </form>   
+</body>
+</html>
